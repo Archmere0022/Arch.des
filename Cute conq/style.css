@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E1E;
+}
+
+.banner-nav{
+    padding: 30px 135px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul li{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.nav-bar ul li :hover{
+    color: #FA7AAB;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    width: 75px;
+    height: 29px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 1000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.nav-bar button{
+    text-decoration: none;
+    width: 75px;
+    height: 29px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 1000;
+    color: #ffffff;
+    background-color: #FA7AAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    border: none;
+    
+}
+
+
+.nav-bar li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left-slide-content button{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #FA7AAB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    border: none;
+    font-style: italic;
+    margin-top: 20px;
+    box-shadow: #ffffff;
+}
+
+
+.left-slide-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 96px;
+    color: #ffffff;
+
+}
+.left-slide-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 96px;
+    color: #FA7AAB;
+    font-style: italic;
+
+}
+
+.left-slide-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.left-slide-content span{
+    
+
+}
+
+.left-slide-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 135px;
+    float: left;
+}
+
+.right-slide-content{
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+}
+
